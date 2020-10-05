@@ -1,0 +1,20 @@
+{
+  "name": "Bot-discord",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DevairRestani/Bot-discord.git",
+  "author": "Devair Restani <devair.juca2013@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev:server": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts",
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mongoose": "^5.10.7",
+    "ts-node-dev": "^1.0.0-pre.63",
+    "tsc": "^1.20150623.0",
+    "typescript": "^4.0.3"
+  }
+}
